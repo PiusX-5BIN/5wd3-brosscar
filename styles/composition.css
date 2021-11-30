@@ -7,15 +7,10 @@ a{
     padding: 1rem;
 }
 
-li{
-    
-}
-
 .page-link{
     margin: 5px;
     display: inline-block;
 }
-
 
 #page-menu{
     list-style: none;
@@ -33,6 +28,5 @@ li{
 
 #fotos {
     block-size: none;
-    display: inline-block
-    ;
+    display: inline-block;
 }

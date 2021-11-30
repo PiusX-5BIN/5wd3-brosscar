@@ -1,4 +1,38 @@
+a{
+    text-decoration: none;
+}
+
+.link{
+    border: 5px;
+    padding: 1rem;
+}
+
+li{
+    
+}
+
+.page-link{
+    margin: 5px;
+    display: inline-block;
+}
+
+
+#page-menu{
+    list-style: none;
+    text-decoration-style: none;
+}
+
+.main-html img{
+    width: 500px;
+}
+
 .info{
     text-align: right;
-    margin: 5rem;
+    margin: 0;
+}
+
+#fotos {
+    block-size: none;
+    display: inline-block
+    ;
 }

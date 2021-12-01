@@ -2,7 +2,7 @@ a{
     text-decoration: none;
 }
 
-.link{
+.links{
     border: 5px;
     padding: 1rem;
 }
@@ -17,16 +17,24 @@ a{
     text-decoration-style: none;
 }
 
-.main-html img{
-    width: 500px;
+
+.foto{
+    width: 100%;
+    border-style: solid
+    
 }
 
 .info{
-    text-align: right;
-    margin: 0;
+    border-style: solid;
+    margin: 0pt;
+    width: 100%;
 }
 
-#fotos {
-    block-size: none;
-    display: inline-block;
+#opdrachten-1, #opdrachten-2, #opdrachten-3 {
+    list-style: none;
+}
+
+.home-page-return {
+    display: block;
+    border-style: solid;
 }

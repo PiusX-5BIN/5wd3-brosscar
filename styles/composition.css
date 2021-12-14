@@ -1,20 +1,31 @@
 a{
     text-decoration: none;
+    
+}
+
+.links:hover{
+    background-color: red;
 }
 
 .links{
     border: 5px;
-    padding: 1rem;
+    padding: 10px;
+    color: black;
+    
 }
+
 
 .page-link{
     margin: 5px;
     display: inline-block;
+    color: black;
 }
+
 
 #page-menu{
     list-style: none;
     text-decoration-style: none;
+    
 }
 
 
@@ -38,3 +49,8 @@ a{
     display: block;
     border-style: solid;
 }
+
+.home-page-return>a{
+    margin: 10px ;
+}
+

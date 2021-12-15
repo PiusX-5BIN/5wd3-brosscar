@@ -82,6 +82,6 @@
     border-style: solid;
 }
 
-.blog-links{
+.blog-links, .opdrachten-links{
     color: red;
 }

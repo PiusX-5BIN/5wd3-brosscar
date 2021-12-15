@@ -1,31 +1,42 @@
-a{
-    text-decoration: none;
-    
-}
-
 .links:hover{
-    background-color: red;
+    background-color: blue;
 }
-
 .links{
-    border: 5px;
-    padding: 10px;
+    text-decoration: none;
+    padding: 8px;
     color: black;
-    
+    background-color: red;
+    border: solid;
 }
 
+
+
+.links:target{
+    display: block;
+}
 
 .page-link{
+    text-decoration: none;
     margin: 5px;
     display: inline-block;
     color: black;
+    background-color: none;
+    border: solid;
+    background-color: red;
+
 }
 
 
 #page-menu{
+    padding: 0pt;
     list-style: none;
     text-decoration-style: none;
     
+}
+
+.page-link:hover{
+    background-color: red;
+    display: inline-block;
 }
 
 
@@ -45,12 +56,28 @@ a{
     list-style: none;
 }
 
+.home-page-return>a:hover{
+    background-color: red;
+}
+
 .home-page-return {
     display: block;
     border-style: solid;
 }
 
 .home-page-return>a{
-    margin: 10px ;
+    margin: 10px;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: red;
 }
 
+.a:hover{
+    background-color: red;
+}
+
+.kleine-uitleg{
+    border-style: solid;
+}
